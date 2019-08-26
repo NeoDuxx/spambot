@@ -58,7 +58,7 @@ try {
         // arrangement of characters and integers. Doing something like this may help prevent
         // future moderation bots from detecting that you sent a spam message.
         if (content === null) {
-          content = "This is spam message #" + count;
+          content = "Bruh Moment #" + count;
         }
 
         message.channel.send(content);
