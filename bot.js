@@ -108,4 +108,4 @@ try {
   console.error("CAUGHT ERROR: " + error);
 }
 
-client.login(config.botToken);
+client.login(process.env.BOT_TOKEN);
