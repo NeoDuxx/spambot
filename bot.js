@@ -16,7 +16,7 @@ try {
     if (command === "spam") {
       var count = 1; // Number of messages sent (modified by sendSpamMessage)
       var maxMessages = 10000; // Change based on how many messages you want sent
-      var timeToWait = null, minTime = 2000, maxTime = 4350;
+      var timeToWait = null, minTime = 7500, maxTime = 11240;
       var content = null;
       var prune = false;
 
